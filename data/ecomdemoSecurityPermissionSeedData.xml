@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the ecomdemo Component." permissionId="ecomdemo_VIEW"/>
+    <SecurityPermission description="Create operations in the ecomdemo Component." permissionId="ecomdemo_CREATE"/>
+    <SecurityPermission description="Update operations in the ecomdemo Component." permissionId="ecomdemo_UPDATE"/>
+    <SecurityPermission description="Delete operations in the ecomdemo Component." permissionId="ecomdemo_DELETE"/>
+    <SecurityPermission description="ALL operations in the ecomdemo Component." permissionId="ecomdemo_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="ecomdemo_ADMIN"/>
+
+</entity-engine-xml>
